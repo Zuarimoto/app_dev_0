@@ -20,6 +20,7 @@ from ninja import NinjaAPI
 
 api = NinjaAPI()
 
+
 @api.get("/name")
 def name(request):
     return {"name": "Zura"}
