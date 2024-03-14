@@ -40,8 +40,6 @@ def multiply(request, a:int, b:int):
 def divide(request, a:int, b:int):
     return{"result": a/b}
 
-#localhost:8080/api/name
-
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("api/",api.urls)
